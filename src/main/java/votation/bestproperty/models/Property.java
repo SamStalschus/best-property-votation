@@ -9,10 +9,10 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import java.util.List;
 
-@Document("properties")
+@Document("immobiles")
 @Data
 @NoArgsConstructor
-public class Property {
+public class Immobile {
 
     @Id
     private String id;
