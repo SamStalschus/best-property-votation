@@ -23,5 +23,6 @@ public class Property {
     @NotBlank
     private String description;
     private List<String> photoUrls;
+    private boolean deleted;
 
 }

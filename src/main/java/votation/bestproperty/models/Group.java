@@ -15,5 +15,6 @@ public class Group {
     @Id
     private String id;
     private List<String> propertiesIds;
+    private boolean deleted;
 
 }

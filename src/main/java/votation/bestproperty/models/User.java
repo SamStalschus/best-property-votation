@@ -32,5 +32,6 @@ public class User {
     private Roles role;
     @JsonIgnore
     private List<History> histories;
+    private boolean deleted;
 
 }
