@@ -1,5 +1,6 @@
 package votation.bestproperty.models;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
@@ -29,5 +30,7 @@ public class User {
     @NotNull
     @NotBlank
     private Roles role;
+    @JsonIgnore
+    private List<History> histories;
 
 }
