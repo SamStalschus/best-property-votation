@@ -7,6 +7,7 @@ import lombok.Setter;
 
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
+import java.util.Date;
 
 @Getter
 @Setter
@@ -19,4 +20,5 @@ public class History {
     @NotNull
     @NotBlank
     private String message;
+    private Date date;
 }

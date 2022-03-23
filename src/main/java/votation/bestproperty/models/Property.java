@@ -22,7 +22,9 @@ public class Property {
     @NotNull
     @NotBlank
     private String description;
+    private String groupId;
     private List<String> photoUrls;
+    private List<History> history;
     private boolean deleted;
 
 }

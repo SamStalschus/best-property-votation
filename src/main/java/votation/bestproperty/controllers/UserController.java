@@ -15,7 +15,7 @@ import javax.validation.Valid;
 import java.util.Objects;
 
 @RestController
-@RequestMapping("/api/user/")
+@RequestMapping("/api/user")
 public class UserController {
 
     private final UserRepository userRepository;

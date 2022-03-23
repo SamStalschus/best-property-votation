@@ -22,6 +22,7 @@ public class User {
     @NotNull
     @NotBlank
     private String email;
+    private String userName;
     private int points;
     @NotNull
     @NotBlank

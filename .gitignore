@@ -12,6 +12,7 @@ target/
 .springBeans
 .sts4-cache
 firebase-key.json
+src/main/resources/application.properties
 
 ### IntelliJ IDEA ###
 .idea
